@@ -17,6 +17,7 @@ const Trending = () => {
       </ContentWrapper>
       <Carousel data={data?.results} loading={loading} />
     </div>
+    
   );
 };
 
